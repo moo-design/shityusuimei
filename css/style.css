@@ -1,0 +1,544 @@
+@charset "utf-8";
+
+
+/*全体の設定
+---------------------------------------------------------------------------*/
+body {
+	background: #f5f5f5;
+	color: #292929;	/*全体の文字色*/
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+	font-family: 'Noto Serif JP', serif;
+}
+
+
+#notice_04 {
+	padding: 5px 5px;
+	line-height: 1;
+	text-align: left;
+	font-weight: normal;
+}
+
+
+#notice_04 p {
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+
+.box_04 {
+	background-color: #f2f2f2;
+	font-size: 1em;
+	margin: 30px 5px 5px;
+	padding: 10px;
+}
+
+.submit_02 {
+	background-color: #1f7bce;
+	border-radius: 5px;
+	box-shadow: 0 3px 0 #00519a;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -2px #00519a;
+	width: 10%;
+	margin-left:10px;
+	margin-right:20px;
+	margin-bottom: 5%;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	/*display:block;*/
+}
+
+
+/*文字サイズ*/
+
+.tokuten05 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    color: #C00;
+}
+
+
+
+
+#s-shosai {
+    margin:20px auto 0 auto;
+}
+table {
+    border-collapse: collapse;
+    font-size: 100%;
+    border-spacing: 0;
+}
+
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+#s-shosai th {
+    width: 30%;
+    background-color: rgb(113, 97, 124);
+    font-size: 100%;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+	vertical-align: middle;
+    border-bottom: 1px solid #fff;
+}
+
+#s-shosai td {
+	width: 70%;
+	padding: 20px;
+	border: 1px solid #ddd;
+	line-height: 150%;
+}
+
+
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+img {
+	border: none;
+}
+
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+/*リンク（全般）設定
+---------------------------------------------------------------------------*/
+a {
+	color: #555;	/*リンクテキストの色*/
+	text-decoration: none;
+}
+a:hover {
+	color: #006ddc;	/*マウスオン時の文字色（全体）*/
+}
+a:hover img{
+position : relative;
+top : 3pt;
+left : 3pt;
+}
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: 750px;	/*コンテナー幅*/
+	background-color:#fff;
+	border-left:1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin: 0 auto;
+}
+
+
+
+/*ヘッダー（サイトロゴが入ったブロック）
+---------------------------------------------------------------------------*/
+
+
+.kiyaku {
+    overflow-y: scroll;
+    height: 100px;
+    width: 70%;
+    padding: 1em;
+    font-size: 80%;
+    color: #888;
+    margin: 0 auto;
+}
+
+.box_03 {
+	background-color: #f2f2f2;
+	padding-top: 0px;
+	margin: 2% 3%;
+	padding: 20px 0;
+	border:1px solid #888;
+}
+
+
+
+
+/*メインコンテンツ
+---------------------------------------------------------------------------*/
+
+
+#main { 
+clear:both;
+margin: 0;}
+
+
+h2 {
+	font-size:38px;
+}
+
+
+
+.ttl-1 {
+	width: auto;
+	padding: 1em 0.5em;
+	background: #332155;
+	position: relative;
+	color: #fff;
+	/*font-size: 200%;*/
+	line-height: 1.4;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 0.15rem;
+}
+
+.sankaku {
+	width: 0;
+	height: 0;
+	border-top: 30px solid #332155;
+	border-right: 50px solid transparent;
+	border-bottom: 30px solid transparent;
+	border-left: 50px solid transparent;
+	position: absolute;
+	bottom: -53px;
+	left: 448px;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 100%;
+}
+
+h1{
+	text-align:center;
+	color:#fff;
+	font-size:42px;
+	line-height:1.2;
+	padding:2rem 0.3em;
+}
+
+table.day{
+	width:900px;
+	margin:50px auto 10px;
+	border:1px solid #ccc;
+}
+table.day tr{
+	border-bottom:1px dotted #ccc;
+	
+}
+
+
+
+
+
+.day_box{
+	margin:20px auto 30px;
+	background:#fff;
+	border-radius: 5px;        /* CSS3草案 */
+	-webkit-border-radius: 5px;    /* Safari,Google Chrome用 */
+	-moz-border-radius: 5px;   /* Firefox用 */
+	padding:20px 10px;
+
+}
+
+
+
+p{
+	line-height:1;
+	margin-bottom:14px;
+}
+
+
+.voice {
+	padding: 1em;
+	margin: 1em auto;
+	border: 1px solid #504885;
+}
+
+.about_box{
+	padding: 50px 20px 50px 20px;
+	font-size:16px;
+	line-height: 150%;
+}
+
+
+/*その他
+---------------------------------------------------------------------------*/
+
+.center { text-align: center;}
+
+
+
+
+#qa { }
+#qa dl {}
+#qa dt {
+	font-size: 1.375rem;
+	font-weight: bold;
+	background: url(../img/icon-q.jpg) no-repeat 2px 7px;
+	padding: 10px 20px 5px 20px;
+}
+
+#qa dd {
+	margin-bottom: 10px;
+	padding: 10px 20px 5px 20px;
+	background: url(../img/icon-a.jpg) no-repeat 2px 7px;
+	border-bottom: 1px dashed #ccc;
+	font-size: 1.125rem;
+	line-height: 150%;
+}
+
+
+/*フォント設定
+---------------------------------------------------------------------------*/
+
+.red { color: #d80011; }
+
+
+dl.tbl_form dl,dt,dd {
+margin: 0;
+padding: 0;
+}
+
+dl.tbl_form dt,dd {
+padding: 6px;
+}
+
+.container_tokuten {
+	display:flex;
+	position: relative;
+	top: -40px;
+	align-items: center;
+	flex-direction: column;
+
+}
+.tokuten {
+	background-image: url(../images/979962.jpg);
+	width: 750px;
+}
+.tokuten img{
+	position: relative;
+	top: 80px;
+}
+
+.tokuten-title {
+	padding-bottom: 10px;
+	background-image: linear-gradient(45deg, #fff 30%,#ccc 30%,#ccc 50%,#fff 50%,#fff 80%,#ccc 80%,#ccc 100%);
+	background-size: 6px 6px;
+	margin-bottom: 2rem;
+}
+.tokuten-title h2{
+	background: #fff;
+	padding:0.5rem .875rem;
+	line-height: 3rem;
+}
+.item {
+	width:700px;
+	background-color: #ffffff;
+	border-style: double;
+	border-color: #d8b320;
+	padding-top: 50px;
+	margin: 50px 30px 10px 30px;
+	border-radius: 5PX;
+}
+.item p {
+	padding: 0 1.5rem 1.5rem 1.5rem;
+	text-align: justify;
+	line-height: 2rem;
+	font-size: 1.125rem;
+}
+
+
+p {
+	font-size: 1.125rem;
+	line-height: 2rem;
+}
+.container_list ul li{
+	letter-spacing: 0;
+	color: #513689;
+	font-size: 1.125rem;
+	font-weight: bold;
+	line-height: 2rem;
+}
+
+
+.container_list ul li::before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f058";
+	color: #513689;
+  }
+
+
+
+.content_2 p{
+	font-size: 1.125rem;
+	line-height: 1.7rem;
+}
+
+.container_contents{
+	margin:0 50px;
+}
+
+.contents_nam p {
+	
+	background-color:#513689;
+	color:#fff;
+	padding-bottom: .5rem;
+	padding:15px;
+	text-align: center;
+	font-size: 2.1875rem;
+	font-weight: bold;
+	margin-bottom:20px;
+
+}
+
+.content_title {
+	font-size: 2.375rem;
+	line-height: 2.8rem;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px ;
+}
+
+ ol li {
+	color:#513689;
+	counter-increment: list;
+	font-size:1.75rem;
+	font-weight: bold;
+    margin-bottom: 0.25rem;
+    line-height: 1.25;
+}
+ ol li::before{
+	content: counter(list) ;
+    color: #fff;
+    background-color: #e09ad9;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    line-height: 1.7rem;
+    text-align: center;
+    display: inline-block;
+	margin-top: 0.25rem;
+    margin-right: 0.25rem;
+    vertical-align: top;
+}
+
+.content4 ul li{
+	letter-spacing: 0;
+	color: #292929;
+	font-size: 1.125rem;
+	font-weight: bold;
+	line-height: 2rem;
+	white-space: nowrap;
+}
+
+.content4 ul li::before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f140";
+	color: #513689;
+	padding-right: .5rem;
+  }
+.book{
+	text-align: center;
+}
+
+.double_circle,
+.check_list {
+	font-size: 1.25rem ;
+
+}
+.double_circle li::before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f140";
+	color: #513689;
+	font-weight: 800;
+	padding-right: .5rem;
+  }
+
+.double_circle li,
+.check_list li{
+	border-bottom: 2px dashed #cecdcf;
+	padding: 5px 0;
+}
+
+.arrow{
+	text-align:center ;
+	padding-bottom: 10px;
+}
+.double_circle .red,
+.check_list .red
+{
+	font-weight: bold;
+}
+
+.check_list li::before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f14a";
+	color: #513689;
+	padding-right: .5rem;
+	font-size: 1.25rem;
+  }
+.voice {
+	text-align: center;
+	border: none;
+}
+.Q,
+.A{
+	font-family: 'Abel', sans-serif;
+	font-size:1.875rem;
+	font-weight: bold;
+	padding-right: .5rem;
+}
+.Q{
+	color: #513689;
+}
+.A{
+	color:red;
+}
+
+footer {
+	width:100%;
+	min-width:750px;
+	font-size: 85%;
+	text-align: center;
+	color: #fff;
+	background-color: #513689;
+	
+}
+footer a {
+	 color: #fff;
+	 display:inline-block;
+	 padding: 10px 0;
+	}
+footer p{
+	font-size: 85%;
+	padding: 10px 0;
+}
+
+
+
+
+
+@media (max-width: 750px) {
+	/* スマホ用のCSS */	
+
+
+	.sankaku {
+		display:none;
+	}
+	footer{
+		width:100%;
+		min-width:100%;
+	}
+}
